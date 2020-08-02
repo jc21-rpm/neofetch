@@ -1,7 +1,7 @@
 %global debug_package %{nil}
 
 Name:           neofetch
-Version:        7.0.0
+Version:        7.1.0
 Release:        1%{?dist}
 Summary:        CLI system information tool written in Bash
 License:        MIT
@@ -34,6 +34,9 @@ sed 's,/usr/bin/env bash,/bin/bash,g' -i neofetch
 
 
 %changelog
+* Mon Aug 3 2020 Jamie Curnow <jc@jc21.com> - 7.1.0-1
+- v7.1.0
+
 * Mon Mar 9 2020 Jamie Curnow <jc@jc21.com> - 7.0.0-1
 - v7.0.0
 
