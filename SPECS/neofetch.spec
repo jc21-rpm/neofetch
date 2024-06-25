@@ -2,7 +2,7 @@
 
 Name:           neofetch
 Version:        7.1.0
-Release:        1
+Release:        1%{?dist}
 Summary:        CLI system information tool written in Bash
 License:        MIT
 URL:            https://github.com/dylanaraps/%{name}
